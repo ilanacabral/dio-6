@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ClientbotApplication<clientbot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.diolabs.clientbot.ClientbotApplication",
+            "projectName": "clientbot",
+            "args": ""
+        }
+    ]
+}
