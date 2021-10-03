@@ -7,12 +7,12 @@ import br.com.diolabs.clientbot.dto.MensagemSend;
 import br.com.diolabs.clientbot.dto.ResultBotTelegramList;
 
 @Service
-public class TelegramService {
+public class TelegramHttpService {
 
     private ClienteHttp clienteHttp;
 
 
-    public TelegramService(ClienteHttp clienteHttp) {
+    public TelegramHttpService(ClienteHttp clienteHttp) {
         this.clienteHttp = clienteHttp;
     }
 
